@@ -4,6 +4,6 @@ provider "aws" {
   profile = "testing"
 }
 
-resource "aws_vpc" "abkr-vpc" {
+resource "aws_vpc" "abkrvpc" {
   cidr_block = "10.0.0.0/16"
 }
