@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-west-2"
-  shared_credentials_file = "/.aws/credentials"
-  profile = "testing"
+  aws_access_key_id = AKIATF76WA6SMQVZPZ4Q
+  aws_secret_access_key = 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
 }
 
 resource "aws_vpc" "abkrvpc" {
