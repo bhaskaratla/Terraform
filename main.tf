@@ -1,7 +1,9 @@
 provider "aws" {
-  shared_credentials_file = "/home/bhaskar/Terraform/project/Terraform/.aws/credentials"
-  profile                 = "test"
+  
   region                  = "ap-south-1"
+  access_key = "AKIATF76WA6SMQVZPZ4Q"
+  secret_key = "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"
+  
 }
 
 
