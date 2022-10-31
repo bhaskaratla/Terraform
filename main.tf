@@ -1,6 +1,6 @@
 provider "aws" {
-  profile                 = "test"
   shared_credentials_file = "/home/bhaskar/Terraform/project/Terraform/.aws/credentials"
+  profile                 = "test"
   region                  = "ap-south-1"
 }
 
