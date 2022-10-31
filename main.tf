@@ -1,4 +1,4 @@
-rovider "aws" {
+provider "aws" {
   profile                 = "test"
   shared_credentials_file = "/home/bhaskar/Terraform/project/Terraform/.aws/credentials"
   region                  = "ap-south-1"
