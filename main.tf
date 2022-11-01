@@ -11,6 +11,9 @@ provider "aws" {
   region = "ap-south-1"
   shared_credentials_files = [".aws/credentials"]
   profile = "terraform-user"
+  endpoints {
+  sts = "https://sts.ap-south-1.amazonaws.com"
+            }
 
 }
 
